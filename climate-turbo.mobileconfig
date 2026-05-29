@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures global high-performance Cloudflare and Google engines with app-specific optimizations.</string>
+            <key>PayloadDisplayName</key>
+            <string>Climate Global Resiliency Engine v15.2</string>
+            <key>PayloadIdentifier</key>
+            <string>com.climate.network.dns</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>A6C1B4DF-812A-4B6E-9E8D-75F91C7B3A24</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://cloudflare-dns.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>
+                    <string>1.0.0.1</string>
+                    <string>8.8.8.8</string>
+                    <string>8.8.4.4</string>
+                    <string>2606:4700:4700::1111</string>
+                    <string>2606:4700:4700::1001</string>
+                </array>
+                <key>AllowFailover</key>
+                <true/>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>x.com</string>
+                    <string>twitter.com</string>
+                    <string>twimg.com</string>
+                    <string>pbs.twimg.com</string>
+                    <string>video.twimg.com</string>
+                    <string>t.co</string>
+                    <string>abs.twimg.com</string>
+                    <string>api.twitter.com</string>
+                    <string>snapchat.com</string>
+                    <string>scn-dmo.net</string>
+                    <string>snapads.com</string>
+                    <string>tiktok.com</string>
+                    <string>tiktokv.com</string>
+                    <string>instagram.com</string>
+                    <string>cdninstagram.com</string>
+                    <string>facebook.com</string>
+                    <string>fbcdn.net</string>
+                    <string>whatsapp.com</string>
+                    <string>whatsapp.net</string>
+                    <string>telegram.org</string>
+                    <string>youtube.com</string>
+                    <string>googlevideo.com</string>
+                    <string>apple.com</string>
+                    <string>icloud.com</string>
+                    <string>google.com</string>
+                    <string>googleapis.com</string>
+                    <string>gstatic.com</string>
+                    <string>amazonaws.com</string>
+                    <string>cloudfront.net</string>
+                    <string>fastly.net</string>
+                    <string>akamai.net</string>
+                    <string>cloudflare.com</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>Any</string>
+                </dict>
+            </array>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Version 15.2 Master Turbo. Maximum app multiplexing and global edge delivery optimization framework.</string>
+    <key>PayloadDisplayName</key>
+    <string>Climate Global Master Turbo v15.2</string>
+    <key>PayloadIdentifier</key>
+    <string>com.climate.network.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>D3B5C7E8-921F-4A7B-BCDE-86A71D2E3F4B</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
